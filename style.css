@@ -1,0 +1,101 @@
+.contener1{
+    display: grid;
+    grid-template-columns: 12,1fr;
+    background-color: plum;
+    height: 100px;
+    width: 100%;
+
+}
+.logo{
+    grid-column: 1/2;
+    height: 80px;
+    width: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.menu{
+    grid-column: 8/12;
+}
+.menu-ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 40px;
+    
+}
+li:hover{
+    color:red;
+}
+
+
+.contener2{
+    display: grid;
+    grid-template-columns: 12,1fr;
+    background-color:#fff;
+    height: 500px;
+    width: 100%;
+}
+
+
+.servis1{
+    grid-column: 1/6;
+
+}
+p{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+h2{
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+button{
+    margin-left: 50px;
+ 
+
+}
+button:hover{
+    color: red;
+}
+
+
+h1{
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.servis2{
+    grid-column: 6/12;
+}
+.servis2 img{
+    margin-top: 30px;
+}
+
+
+
+
+.contener3{
+    display: grid;
+    grid-template-columns: 12,1fr;
+    background-color: plum;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    font-size: 25px;
+    margin-top: 20px;
+}
+h3{
+    font-size: 15px;
+}
