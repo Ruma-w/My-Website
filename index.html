@@ -4,62 +4,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page Redesign</title>
+    <title>Freelancer with Ruma - Laptop Deals</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        .header {
-            background-color: #007bff;
-            color: white;
-            padding: 20px;
-            text-align: center;
-            font-size: 24px;
-        }
-        .container {
-            width: 80%;
-            margin: 20px auto;
+        body { font-family: Arial, sans-serif; background: #f9f9f9; margin: 0; padding: 0; }
+        header { background-color: #007acc; color: white; padding: 1em; text-align: center; }
+        .container { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; }
+        .card {
             background: white;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            max-width: 300px;
+            flex: 1 1 300px;
+            padding: 15px;
         }
-        .hero {
-            background: url('hero-image-placeholder.svg') no-repeat center;
-            background-size: contain;
-            height: 300px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #007bff;
-            font-size: 28px;
-            font-weight: bold;
-        }
-        .btn {
+        .card h3 { font-size: 1.2em; color: #007acc; }
+        .card p { font-size: 0.95em; }
+        .card a {
             display: inline-block;
-            padding: 10px 20px;
-            margin: 10px 0;
-            background: #007bff;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: #007acc;
             color: white;
             text-decoration: none;
             border-radius: 5px;
         }
-        .btn:hover {
-            background: #0056b3;
+        @media (max-width: 600px) {
+            .container { flex-direction: column; align-items: center; }
         }
     </style>
 </head>
 <body>
-    <div class="header">Algorithmic Home Page Redesign</div>
+    <header>
+        <h1>Freelancer with Ruma - Top 5 Tech Picks</h1>
+    </header>
     <div class="container">
-        <div class="hero">Modern Factory Automation</div>
-        <h2>Welcome to Algorithm Inc.</h2>
-        <p>Our newly redesigned homepage focuses on modern factories and automation using blueprint-style graphics and wireframe illustrations.</p>
-        <a href="#" class="btn">Explore Now</a>
+        
+    <div class="card">
+        <h3>Amazon Fire Max 11 tablet (newest model) vivid 11” display, ...</h3>
+        <p>Amazon Fire Max 11 tablet (newest model) vivid 11” display, all-in-one for streaming, reading, and gaming, 14-hour battery life, optional stylus and keyboard, 64 GB, Gray.</p>
+        <a href="https://amzn.to/447MMZM" target="_blank">Buy Now</a>
+    </div>
+    
+    <div class="card">
+        <h3>15.6 Inch Laptop with Office 365, 4GB RAM, 128GB Storage Exp...</h3>
+        <p>15.6 Inch Laptop with Office 365, 4GB RAM, 128GB Storage Expandable 1TB, 5205U Processor, HD Display, Windows 11 Laptops Computer, Wi-Fi 5, BT4.2, Numpad, Type-C, for Business and Students.</p>
+        <a href="https://amzn.to/3EuBwwf" target="_blank">Buy Now</a>
+    </div>
+    
+    <div class="card">
+        <h3>Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS ...</h3>
+        <p>Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode.</p>
+        <a href="https://amzn.to/4lHosnJ" target="_blank">Buy Now</a>
+    </div>
+    
+    <div class="card">
+        <h3>Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS ...</h3>
+        <p>Acer Aspire 3 A315-24P-R7VH Slim Laptop | 15.6" Full HD IPS Display | AMD Ryzen 3 7320U Quad-Core Processor | AMD Radeon Graphics | 8GB LPDDR5 | 128GB NVMe SSD | Wi-Fi 6 | Windows 11 Home in S Mode.</p>
+        <a href="https://amzn.to/3GmvNJv" target="_blank">Buy Now</a>
+    </div>
+    
+    <div class="card">
+        <h3>Acer Aspire 5 15 Slim Laptop | 15.6" FHD IPS Touch 1920 x 10...</h3>
+        <p>Acer Aspire 5 15 Slim Laptop | 15.6" FHD IPS Touch 1920 x 1080 | Intel Core i7-1355U | Intel Iris Xe Graphics | 16GB LPDDR5 | 512GB Gen 4 SSD | Wi-Fi 6E 802.11ax | Backlit Keyboard</p>
+        <a href="https://amzn.to/4jGsQlT" target="_blank">Buy Now</a>
+    </div>
+    
     </div>
 </body>
 </html>
